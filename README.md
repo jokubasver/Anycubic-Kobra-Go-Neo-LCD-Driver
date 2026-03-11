@@ -10,7 +10,7 @@ SPI init sequence is based off the Anycubic Kobra Neo Marlin fork [BSP SPI TFT d
 
 Since the LCD used in the Kobra Go/Neo does not have touch, you can only use the display to view print stats. KlipperScreen does not currently support keyboard or rotary encoder control, and if it ever implements these features, then it would be possible to use the built-in rotary encoder for control. As it stands now - this is only for displaying printer info.
 
-UPDATE: [wil-sys](https://github.com/wil-sys) has created a control interface for KlipperScreen using the rotary encoder as a mouse emulator. Check it out here: [KlipperScreen-Encoder-Driver](https://github.com/wil-sys/KlipperScreen-Encoder-Driver)
+UPDATE: [SomeSpaceNerd](https://github.com/SomeSpaceNerd) has created a control interface for KlipperScreen using the rotary encoder as a mouse emulator. Check it out here: [KlipperScreen-Encoder-Driver](https://github.com/SomeSpaceNerd/KlipperScreen-Encoder-Driver)
 
 Tested on a Raspberry Pi Zero 2W, but it should work on other Pi models, as long as they are supported by [fbcp-ili9341](https://github.com/juj/fbcp-ili9341)
 
